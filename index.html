@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Currículo - Gilberto Morales</title>
+    <link id="theme" rel="stylesheet" href="modo-claro.css" />
+  </head>
+  <body>
+    <div class="theme-buttons">
+      <button onclick="mudarEstilo('modo-claro.css')">🌞 Modo Claro</button>
+      <button onclick="mudarEstilo('modo-escuro.css')">🌙 Modo Escuro</button>
+    </div>
+
+    <div class="container">
+      <section id="topo" class="secao-principal">
+        <img
+          src="/perfil.jpg"
+          alt="Gilberto Morales"
+          width="150"
+          title="Perfil"
+          class="foto-perfil"
+        />
+
+        <h1 class="nome-principal">Gilberto Morales</h1>
+        <h2 class="profissao">Fullstack Developer</h2>
+      </section>
+
+      <section class="secao biografia">
+        <h2 class="titulo-secao">Sobre Mim</h2>
+        <p class="descricao" title="Biografia profissional de Gilberto Morales">
+          Hello! I'm a <strong>fullstack developer</strong> passionate about
+          building engaging and functional web experiences. My journey with
+          programming began at a young age, sparked by a
+          <em>curiosity to create plugins for games</em> — and that passion has
+          only grown since then.
+        </p>
+
+        <p class="descricao">
+          Over the years, I've developed a strong foundation in technologies
+          like
+          <mark>React, HTML, JavaScript, Python, Java, TypeScript</mark>, and
+          more. My focus is on writing clean, maintainable code and designing
+          scalable systems that deliver great user experiences.
+        </p>
+
+        <p class="descricao">
+          Outside of programming, I enjoy playing volleyball and video games —
+          hobbies that keep me balanced and often inspire fresh ideas for my
+          projects.
+        </p>
+      </section>
+
+      <section class="secao habilidades">
+        <h2 class="titulo-secao">Habilidades Técnicas</h2>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Tecnologia</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>C</td>
+              </tr>
+              <tr>
+                <td>CSS3</td>
+              </tr>
+              <tr>
+                <td>Git</td>
+              </tr>
+              <tr>
+                <td>HTML5</td>
+              </tr>
+              <tr>
+                <td>Java</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+              </tr>
+              <tr>
+                <td>MySQL</td>
+              </tr>
+              <tr>
+                <td>Next.js</td>
+              </tr>
+              <tr>
+                <td>Node.js</td>
+              </tr>
+              <tr>
+                <td>PostgreSQL</td>
+              </tr>
+              <tr>
+                <td>Python</td>
+              </tr>
+              <tr>
+                <td>React</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="secao redes-sociais">
+        <h2 class="titulo-secao">Redes Sociais</h2>
+        <div class="links-sociais">
+          <a
+            href="https://github.com/eumorales"
+            target="_blank"
+            title="Visite meu perfil no GitHub"
+            class="link-social github"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://instagram.com/gilbertomrls"
+            target="_blank"
+            title="Siga-me no Instagram"
+            class="link-social instagram"
+          >
+            Instagram
+          </a>
+
+          <a
+            href="mailto:eu@gilbertomorales.com"
+            title="Envie um email"
+            class="link-social email"
+          >
+            Email
+          </a>
+        </div>
+      </section>
+
+      <section class="secao github-link">
+        <h2 class="titulo-secao">Perfil GitHub</h2>
+        <a
+          href="https://www.github.com/eumorales"
+          target="_blank"
+          title="Visite meu perfil completo"
+        >
+          <img
+            src="/github.jpeg"
+            alt="Link para GitHub"
+            title="Visite meu perfil"
+            class="github-image"
+          />
+        </a>
+      </section>
+
+      <section class="secao portfolio">
+        <h2 class="titulo-secao">Portfolio</h2>
+        <a
+          href="https://www.gilbertomorales.com"
+          target="_blank"
+          title="Acesse meu portfolio completo"
+        >
+          <button class="btn-portfolio">Acessar Portfolio</button>
+        </a>
+      </section>
+
+      <section class="secao contato">
+        <h2 class="titulo-secao">Entre em Contato</h2>
+        <form class="formulario-contato" action="#" method="post">
+          <label for="nome">Nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Seu nome"
+            required
+          />
+
+          <label for="email-contato">Email:</label>
+          <input
+            type="email"
+            id="email-contato"
+            name="email"
+            placeholder="seu@email.com"
+            required
+          />
+
+          <label for="assunto">Assunto:</label>
+          <select id="assunto" name="assunto" required>
+            <option value="">Selecione um assunto</option>
+            <option value="trabalho">Algo super importante</option>
+            <option value="projeto">Algo nada importante</option>
+            <option value="consultoria">Falar bobagem</option>
+            <option value="outros">Outros</option>
+          </select>
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            placeholder="Mensagem"
+            rows="5"
+            required
+          ></textarea>
+
+          <input type="submit" value="Enviar Mensagem" class="btn-enviar" />
+        </form>
+      </section>
+
+      <div class="voltar-topo">
+        <a href="#topo" title="Voltar ao topo">⬆️ Voltar ao topo ⬆️</a>
+      </div>
+    </div>
+
+    <script>
+      function mudarEstilo(sheet) {
+        document.getElementById("theme").href = sheet;
+      }
+    </script>
+  </body>
+</html>
