@@ -9,21 +9,19 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #ffffff;
-  color: #333333;
+  color: #2b2b2b;
   padding: 20px;
 }
 
-/* Container principal */
 .container {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #f9f9f9;
+  background-color: #f5f5f5;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-/* Botões de tema */
 .theme-buttons {
   position: fixed;
   top: 20px;
@@ -32,7 +30,7 @@ body {
 }
 
 .theme-buttons button {
-  background-color: #4caf50;
+  background-color: #7e57c2;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -43,32 +41,29 @@ body {
 }
 
 .theme-buttons button:hover {
-  background-color: #45a049;
+  background-color: #6a43b7;
 }
 
-/* Seções */
 .secao {
   margin-bottom: 30px;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #dcdcdc;
 }
 
 .secao-principal {
   text-align: center;
-  background: linear-gradient(135deg, #ffffff, #f0f8ff);
-  border: 2px solid #4caf50;
+  background: linear-gradient(135deg, #ffffff, #f5f5fc);
+  border: 2px solid #7e57c2;
 }
 
-/* Foto de perfil */
 .foto-perfil {
   border-radius: 50%;
-  border: 3px solid #4caf50;
+  border: 3px solid #7e57c2;
   margin-bottom: 15px;
 }
 
-/* Títulos */
 .nome-principal {
   color: #2c3e50;
   font-size: 2.5em;
@@ -76,29 +71,27 @@ body {
 }
 
 .profissao {
-  color: #3498db;
+  color: #6a43b7;
   font-size: 1.5em;
   margin-bottom: 20px;
 }
 
 .titulo-secao {
-  color: #3498db;
+  color: #6a43b7;
   font-size: 1.8em;
   margin-bottom: 15px;
-  border-bottom: 2px solid #3498db;
+  border-bottom: 2px solid #c2b2e3;
   padding-bottom: 5px;
 }
 
-/* Parágrafos */
 .descricao {
   margin-bottom: 15px;
   text-align: justify;
   padding: 10px;
-  background-color: #f8f9fa;
-  border-left: 4px solid #3498db;
+  background-color: #f7f7fa;
+  border-left: 4px solid #b29ddb;
 }
 
-/* Tabela de habilidades */
 .table-container {
   overflow-x: auto;
   margin-top: 20px;
@@ -114,24 +107,24 @@ table {
 
 th,
 td {
-  border: 1px solid #ddd;
+  border: 1px solid #dcdcdc;
   padding: 12px;
   text-align: left;
 }
 
 th {
-  background-color: #4caf50;
+  background-color: #7e57c2;
   color: white;
   text-align: center;
   font-weight: bold;
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #f1f1f1;
 }
 
 tr:hover {
-  background-color: #e8f5e9;
+  background-color: #ede7f6;
 }
 
 caption {
@@ -142,7 +135,6 @@ caption {
   color: #2c3e50;
 }
 
-/* Links sociais */
 .links-sociais {
   display: flex;
   flex-wrap: wrap;
@@ -170,7 +162,7 @@ caption {
 }
 
 .link-social.email {
-  background-color: #6530e1;
+  background-color: #7e57c2;
   color: white;
 }
 
@@ -179,12 +171,11 @@ caption {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Imagem GitHub */
 .github-image {
   display: block;
   margin: 0 auto;
   border-radius: 8px;
-  border: 2px solid #ddd;
+  border: 2px solid #ccc;
   transition: transform 0.3s ease;
 }
 
@@ -192,9 +183,8 @@ caption {
   transform: scale(1.05);
 }
 
-/* Botão Portfolio */
 .btn-portfolio {
-  background-color: #3498db;
+  background-color: #6a43b7;
   color: white;
   padding: 15px 30px;
   border: none;
@@ -208,15 +198,14 @@ caption {
 }
 
 .btn-portfolio:hover {
-  background-color: #2980b9;
+  background-color: #5a389a;
 }
 
-/* Formulário */
 .formulario-contato {
-  background-color: #f8f9fa;
+  background-color: #f7f7fa;
   padding: 20px;
   border-radius: 8px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #dcdcdc;
 }
 
 .formulario-contato label {
@@ -241,13 +230,13 @@ caption {
 .formulario-contato input:focus,
 .formulario-contato select:focus,
 .formulario-contato textarea:focus {
-  border: 2px solid #4caf50;
-  background-color: #e8f5e9;
+  border: 2px solid #7e57c2;
+  background-color: #f3eefe;
   outline: none;
 }
 
 .btn-enviar {
-  background-color: #4caf50;
+  background-color: #7e57c2;
   color: white;
   padding: 12px 30px;
   border: none;
@@ -258,17 +247,16 @@ caption {
 }
 
 .btn-enviar:hover {
-  background-color: #45a049;
+  background-color: #6a43b7;
 }
 
-/* Voltar ao topo */
 .voltar-topo {
   text-align: center;
   margin-top: 30px;
 }
 
 .voltar-topo a {
-  color: #3498db;
+  color: #6a43b7;
   text-decoration: none;
   font-weight: bold;
 }

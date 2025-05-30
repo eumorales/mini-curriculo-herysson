@@ -30,8 +30,8 @@ body {
 }
 
 .theme-buttons button {
-  background-color: #bb86fc;
-  color: #121212;
+  background-color: #7e57c2;
+  color: #fff;
   border: none;
   padding: 10px 15px;
   margin: 0 5px;
@@ -41,46 +41,46 @@ body {
 }
 
 .theme-buttons button:hover {
-  background-color: #9965f4;
+  background-color: #6a43b7;
 }
 
 .secao {
   margin-bottom: 30px;
   padding: 20px;
-  background-color: #2d2d2d;
+  background-color: #2a2a2a;
   border-radius: 8px;
-  border: 1px solid #404040;
+  border: 1px solid #3a3a3a;
 }
 
 .secao-principal {
   text-align: center;
   background: linear-gradient(135deg, #2d2d2d, #1a1a2e);
-  border: 2px solid #bb86fc;
+  border: 2px solid #7e57c2;
 }
 
 .foto-perfil {
   border-radius: 50%;
-  border: 3px solid #bb86fc;
+  border: 3px solid #7e57c2;
   margin-bottom: 15px;
 }
 
 .nome-principal {
-  color: #bb86fc;
+  color: #c9a3ff;
   font-size: 2.5em;
   margin-bottom: 10px;
 }
 
 .profissao {
-  color: #03dac6;
+  color: #a78bfa;
   font-size: 1.5em;
   margin-bottom: 20px;
 }
 
 .titulo-secao {
-  color: #03dac6;
+  color: #a78bfa;
   font-size: 1.8em;
   margin-bottom: 15px;
-  border-bottom: 2px solid #03dac6;
+  border-bottom: 2px solid #a78bfa;
   padding-bottom: 5px;
 }
 
@@ -89,7 +89,7 @@ body {
   text-align: justify;
   padding: 10px;
   background-color: #333333;
-  border-left: 4px solid #03dac6;
+  border-left: 4px solid #a78bfa;
 }
 
 .table-container {
@@ -107,25 +107,25 @@ table {
 
 th,
 td {
-  border: 1px solid #555;
+  border: 1px solid #444;
   padding: 12px;
   text-align: left;
   color: #e0e0e0;
 }
 
 th {
-  background-color: #bb86fc;
-  color: #121212;
+  background-color: #7e57c2;
+  color: #ffffff;
   text-align: center;
   font-weight: bold;
 }
 
 tr:nth-child(even) {
-  background-color: #3d3d3d;
+  background-color: #3a3a3a;
 }
 
 tr:hover {
-  background-color: #4a4a4a;
+  background-color: #484848;
 }
 
 caption {
@@ -133,7 +133,7 @@ caption {
   text-align: left;
   padding: 10px;
   font-weight: bold;
-  color: #bb86fc;
+  color: #c9a3ff;
 }
 
 .links-sociais {
@@ -153,7 +153,7 @@ caption {
 }
 
 .link-social.github {
-  background-color: #555;
+  background-color: #444;
   color: #e0e0e0;
 }
 
@@ -163,13 +163,13 @@ caption {
 }
 
 .link-social.email {
-  background-color: #bb86fc;
-  color: #121212;
+  background-color: #7e57c2;
+  color: white;
 }
 
 .link-social:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(187, 134, 252, 0.3);
+  box-shadow: 0 4px 8px rgba(126, 87, 194, 0.3);
 }
 
 .github-image {
@@ -185,7 +185,7 @@ caption {
 }
 
 .btn-portfolio {
-  background-color: #03dac6;
+  background-color: #a78bfa;
   color: #121212;
   padding: 15px 30px;
   border: none;
@@ -199,21 +199,21 @@ caption {
 }
 
 .btn-portfolio:hover {
-  background-color: #018786;
+  background-color: #9166e6;
 }
 
 .formulario-contato {
-  background-color: #333333;
+  background-color: #2f2f2f;
   padding: 20px;
   border-radius: 8px;
-  border: 1px solid #555;
+  border: 1px solid #444;
 }
 
 .formulario-contato label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #bb86fc;
+  color: #c9a3ff;
 }
 
 .formulario-contato input[type="text"],
@@ -233,14 +233,14 @@ caption {
 .formulario-contato input:focus,
 .formulario-contato select:focus,
 .formulario-contato textarea:focus {
-  border: 2px solid #bb86fc;
-  background-color: #404040;
+  border: 2px solid #a78bfa;
+  background-color: #3d3d3d;
   outline: none;
 }
 
 .btn-enviar {
-  background-color: #bb86fc;
-  color: #121212;
+  background-color: #7e57c2;
+  color: white;
   padding: 12px 30px;
   border: none;
   border-radius: 4px;
@@ -250,7 +250,7 @@ caption {
 }
 
 .btn-enviar:hover {
-  background-color: #9965f4;
+  background-color: #6a43b7;
 }
 
 .voltar-topo {
@@ -259,7 +259,7 @@ caption {
 }
 
 .voltar-topo a {
-  color: #03dac6;
+  color: #a78bfa;
   text-decoration: none;
   font-weight: bold;
 }
